@@ -83,9 +83,10 @@ _print_version() {
 
 _print_usage() {
     _command_fzf_version
+    echo
     cat <<- _EOF
     Usage:
-    $PROGRAM ff [-h] [-nc] [pass-name]
+    $PROGRAM ff [-h] [-n] [pass-name]
         Provide the capability of fuzzy search from the password list
         using fzf(1).
 

@@ -47,6 +47,6 @@ $ cd fzf-pass
 $ cp ff.bash ~/.password-store/.extensions/ff.bash
 
 # In case the extensions are not enabled,
-$ echo "export PASSWORD_STORE_ENABLE_EXTENSIONS=yes" >> ~/.bash_profile
+$ echo "export PASSWORD_STORE_ENABLE_EXTENSIONS=true" >> ~/.bash_profile
 $ source ~/.bash_profile
 ```
